@@ -1,0 +1,14 @@
+name: CI/CD Pipeline  
+on:  
+  push:  
+    branches: [ main ]  
+
+jobs: 
+  probandojobs: 
+    runs-on: ubuntu-latest
+    steps:
+     -run: echo "Starting the CI/CD pipeline..."
+     -run: echo "haber que tal va"  
+     -run: echo "aprendiendo cicd pipeline"
+     -run: echo  "parte 4 final"
+      
